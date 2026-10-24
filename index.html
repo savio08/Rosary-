@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>32 Rosaries with Mary — Prayer Journey</title>
+<meta name="description" content="A 15-day Marian prayer journal: 32 Rosaries (8 complete sets of the four mysteries), daily intentions, a bead counter and a private prayer diary. English and Malayalam.">
+<meta name="theme-color" content="#27456f">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<div class="page">
+  <header class="top">
+    <a class="brand" href="#/" data-i18n-aria="homeAria" aria-label="32 Rosaries with Mary — home">
+      <span class="brand-star" aria-hidden="true">✦</span>
+      <span class="brand-text" data-i18n="appTitle">32 Rosaries with Mary</span>
+    </a>
+    <div class="top-right">
+      <div class="langsw" role="group" data-i18n-aria="langAria" aria-label="Language">
+        <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang-btn="ml" aria-pressed="false" lang="ml">മലയാളം</button>
+      </div>
+      <a class="gear" href="#/settings" data-i18n="settingsLink">Settings</a>
+    </div>
+  </header>
+  <div id="storage-warning" class="notice" role="status" hidden data-i18n="storageWarn">
+    Your browser is blocking local storage, so progress can’t be saved between visits. Please use “Export backup” in Settings before closing this page.
+  </div>
+  <main id="main" tabindex="-1"><noscript>This prayer journal needs JavaScript to run.</noscript></main>
+  <footer class="foot" data-i18n="footer">Through Mary to Jesus · Your notes stay on this device.</footer>
+</div>
+
+<nav class="tabs" data-i18n-aria="menuMain" aria-label="Main">
+  <a href="#/" data-tab="home"><span class="ico" aria-hidden="true">✦</span><span data-i18n="tabHome">Home</span></a>
+  <a href="#/days" data-tab="days"><span class="ico" aria-hidden="true">❖</span><span data-i18n="tabDays">Days</span></a>
+  <a href="#/progress" data-tab="progress"><span class="ico" aria-hidden="true">◌</span><span data-i18n="tabProgress">Progress</span></a>
+  <a href="#/intentions" data-tab="intentions"><span class="ico" aria-hidden="true">♡</span><span data-i18n="tabIntentions">Intentions</span></a>
+  <a href="#/guide" data-tab="guide"><span class="ico" aria-hidden="true">✝</span><span data-i18n="tabGuide">Rosary</span></a>
+</nav>
+
+<dialog id="dlg" aria-labelledby="dlg-title">
+  <form method="dialog" class="dlg-body">
+    <h2 id="dlg-title" data-i18n="confirmTitle">Please confirm</h2>
+    <p id="dlg-text"></p>
+    <div class="dlg-actions">
+      <button value="cancel" class="btn ghost" data-i18n="cancel">Cancel</button>
+      <button value="ok" class="btn danger" id="dlg-ok" data-i18n="confirm">Confirm</button>
+    </div>
+  </form>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="content.js"></script>
+<script src="ml.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
+</body></html>

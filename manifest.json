@@ -1,0 +1,32 @@
+{
+  "name": "32 Rosaries with Mary — Prayer Journey",
+  "short_name": "32 Rosaries",
+  "description": "A 15-day Marian prayer journal: 32 Rosaries, daily intentions, a bead counter and a private prayer diary. English and Malayalam.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f0df",
+  "theme_color": "#27456f",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
